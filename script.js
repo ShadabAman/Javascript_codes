@@ -29,6 +29,9 @@ console.log('The number that are fully divided by 2 of array is', result3);
 
 //find an element with value 1 (using arr.find() method )
 
+var result9 = arr.find();
+console.log('The element with value 1 of array is', result9);
+
 //find the highest element of array
 var result10 = Math.max(...arr);
 console.log('The highest number of array is', result10);
