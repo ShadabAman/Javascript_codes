@@ -30,9 +30,5 @@ console.log('The number that are fully divided by 2 of array is', result3);
 //find an element with value 1 (using arr.find() method )
 
 //find the highest element of array
-var hno = 0;
-
-numbers.forEach(myFunction);
-
-function myFunction(item, index) {}
-console.log('The desending order of array is');
+var result10 = Math.max(...arr);
+console.log('The highest number of array is', result10);
